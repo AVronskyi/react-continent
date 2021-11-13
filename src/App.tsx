@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import continents from './components/continents';
+import { Continentslist } from './components/ContinentsList';
 
 // const ListCoutri: React.FC<Country> = ({ countries }) => {
 //   let languages = null;
@@ -31,16 +32,14 @@ import continents from './components/continents';
 // };
 
 const App: React.FC = () => {
-
   return (
     <div className="App">
       <ul>
-        {continents.map(countries => (
-          <li
-            
-          >
-
-          </li>
+        {continents.map((continent: Continent) => (
+          <Continentslist
+            key={continent.name}
+            continent={continent}
+          />
         ))}
       </ul>
     </div>
