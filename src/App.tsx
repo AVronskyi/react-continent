@@ -1,47 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import continents from './components/continents';
 import { Continentslist } from './components/ContinentsList';
-
-// const ListCoutri: React.FC<Country> = ({ countries }) => {
-//   let languages = null;
-//   if (countries.languages && countries.languages.length) {
-//     languages = (
-//       <ul>
-//         {countries.languages.map(l => (
-//           <Languages item={i} key={languages.name} />
-//         ))}
-//       </ul>
-//     );
-//   }
-//   return (
-//     <li>
-//       {countries.name}
-//       {languages}
-//     </li>
-//   )
-// };
-
-// const Languages: React.FC<Language> = ({ languages }) => {
-  
-//   return (
-//     <li>
-//       {languages.name}
-//     </li>
-//   )
-// };
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <ul>
-        {continents.map((continent: Continent) => (
+      <ul className="list-group">
+        {continents.map(continent => (
           <Continentslist
             key={continent.name}
             continent={continent}
           />
         ))}
       </ul>
+
     </div>
   )
 };

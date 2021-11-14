@@ -2,12 +2,12 @@
 
 interface Continent {
   name: string;
-  countries?: Country[];
+  countries: Country[];
 }
 
 interface Country {
   name: string;
-  languages?: Language[];
+  languages: Language[];
 }
 
 interface Language {
