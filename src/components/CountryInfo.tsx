@@ -13,7 +13,6 @@ export const CountryInfo: React.FC<Props> = (props) => {
   const handleClick = () => {
     setIsSelectedCountry(!isSelectedCountry);
   };
-  
 
   return (
     <li
