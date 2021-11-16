@@ -1,5 +1,8 @@
 # Test project react-continent
 
+## Preview
+  [DEMO LINK](https://avronskyi.github.io/react-continent/)
+
 ## Task:
 1. Create a reactjs application which is capable to render nested json data struture of the following format:
 ```js
@@ -53,9 +56,3 @@ Bonus task: make it so application will not consume a lot of memory for big `n` 
 - Typescript
 - Bootstrap
 - GraphQL
-
-## Preview
-  [DEMO LINK](https://avronskyi.github.io/react-continent/)
-
-## Code
-  [CODE LINK](https://github.com/AVronskyi/react-continent)
