@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-continent"]=this["webpackJsonpreact-continent"]||[]).push([[0],{11:function(n,t,e){"use strict";e.r(t);e(0);var c=e(3),o=e.n(c),s=(e(8),e(9),e(1)),i=function(){return Object(s.jsx)("div",{className:"App"})};o.a.render(Object(s.jsx)(i,{}),document.getElementById("root"))},8:function(n,t,e){},9:function(n,t,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.fed7b5a4.chunk.js.map
